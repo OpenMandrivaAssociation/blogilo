@@ -81,6 +81,7 @@ KDE PIM shared library.
 %install
 %ninja_install -C build
 
-%find_lang %{name}
+%find_lang blogilo
 %find_lang libcomposereditorwebengine
+
 cat *.lang >%{name}.lang
