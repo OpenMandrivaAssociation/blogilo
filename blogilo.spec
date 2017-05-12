@@ -13,6 +13,7 @@ BuildRequires:	pkgconfig(Qt5Test)
 BuildRequires:	pkgconfig(Qt5Sql)
 BuildRequires:	pkgconfig(Qt5WebEngine)
 BuildRequires:	pkgconfig(Qt5WebEngineWidgets)
+BuildRequires:	cmake(KF5Akonadi)
 BuildRequires:	cmake(KF5Crash)
 BuildRequires:	cmake(KF5DBusAddons)
 BuildRequires:	cmake(KF5DocTools)
@@ -27,6 +28,7 @@ BuildRequires:	cmake(KF5PimTextEdit)
 BuildRequires:	cmake(KF5WebEngineViewer)
 BuildRequires:	cmake(KF5IMAP)
 BuildRequires:	cmake(KPimGAPI)
+BuildRequires:	boost-devel
 Requires:	kdepim-runtime
 Conflicts:	blogilo < 3:16.08.3-4
 
