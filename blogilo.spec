@@ -35,7 +35,7 @@ Conflicts:	blogilo < 3:16.08.3-4
 %description
 Blogilo is a blogging client for KDE, which supports famous blogging APIs.
 
-%files -f %{name}.lang
+%files -f %{name}_all.lang
 %{_kde5_applicationsdir}/org.kde.blogilo.desktop
 %{_kde5_bindir}/blogilo
 %{_kde5_bindir}/composerhtmleditor
@@ -81,7 +81,7 @@ KDE PIM shared library.
 %install
 %ninja_install -C build
 
-%find_lang blogilo
+%find_lang %{name}
 %find_lang libcomposereditorwebengine
 
-cat *.lang >%{name}.lang
+cat *.lang >%{name}_all.lang
