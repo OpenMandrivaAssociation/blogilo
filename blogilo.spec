@@ -77,4 +77,4 @@ KDE PIM shared library.
 %ninja -C build
 
 %install
-%makeinstall_std -C build
+%ninja_install -C build
