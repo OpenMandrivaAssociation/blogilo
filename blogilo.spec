@@ -1,6 +1,6 @@
 Summary:	KDE blogging client
 Name:		blogilo
-Version:	17.08.0
+Version:	17.08.1
 Release:	1
 Epoch:		3
 License:	GPLv2+
